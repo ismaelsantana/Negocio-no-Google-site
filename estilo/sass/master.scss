@@ -1,0 +1,227 @@
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap";
+
+/* fim Bootstrap */
+
+/*  Inicio codigos do site */
+
+
+body, html{
+	font-family: arial;
+	height: 100%;
+	width: 100%;
+
+}
+
+
+h1, h2,  h3{
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+ // @media (min-width: 1200px) {
+ //   .container {
+ //     width: 1000px; } }
+
+.header-principal{
+	min-height: 95px;
+	background-color: rgba(238, 238, 238, 0.77);
+	border-bottom: 2px solid #efd0a6;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+
+	.logo-top img{
+		height: 58px;
+		padding-top: 15px;
+
+
+	}
+	nav ul li{
+		display: inline-block;
+		padding-left: 5px;
+		padding-right: 15px;
+		padding-top: 22px;
+	}
+
+	nav ul li a {
+		text-decoration: none;
+		font-size: 12px;
+		color: #666;
+		font-weight: bold;
+		text-transform: uppercase;
+
+	}
+
+
+
+	.link-contato a{
+	color: #fff;
+    background-color: #eea236;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+	}
+
+}
+
+/* -- Fim header -- */
+
+/*-- Chamada --*/
+
+.chamada {
+	text-align: center;
+	min-height: 100%;
+
+	.rede-social{
+		position: fixed;
+		float: left;
+		height: 120px;
+		width: 42px;
+		background-color: #eee;
+		margin-top: 230px;
+
+		.redes{
+			margin-top: 8px;
+		}
+
+
+	}
+
+  .conteudo-chamada{
+  	margin-top: 180px;
+
+  	h1{
+  		font-size: 3.6em;
+  		margin-bottom: 30px;
+  		font-weight: 200;
+  		color: #111;
+
+  		b{
+  			color: #eea236;
+  		}
+  	}
+
+  	h2{
+  		font-size: 2em;
+  		color: #444;
+  		span{
+  			color: #444;
+  		}
+  	}
+
+  	p{
+  		font-size: 1em;
+  		margin-bottom: 0px;
+  	}
+
+  	a{
+  		padding: 20px;
+  		color: #fff;
+  	}
+  }
+
+}
+
+/*-- fim cahamda -*/
+
+.p-internet{
+	min-height: 100%;
+	background-color: #eea236;
+	text-align: center;
+
+
+
+
+		b{
+			color: #337ab7;
+		}
+	}
+
+
+/*-- fim p internet --*/
+
+.title-h2{
+	padding-top: 10px;
+    font-size: 2.6em;
+    color: #333;
+}
+
+.img-title{
+		height: 300px;
+
+	}
+
+	.p-title{
+		margin-bottom: 40px;
+		color: #fff;
+		font-size: 1.2em;
+	}
+
+	.conteudo-title{
+		padding-top: 190px;
+	}
+
+.btn-title{
+	padding: 20px;
+}
+
+.mapa-google{
+	text-align: center;
+	background-color: #337ab7;
+	min-height: 100%;
+}
+
+.negocio-crescer{
+	text-align: center;
+	background-color: #398439;
+	min-height: 100%;
+
+}
+
+.rodape{
+	min-height: 300px;
+	background-color: #222;
+	text-align: center;
+	h4{
+		font-size: 14px;
+		color: #999;
+	}
+
+	img{
+		padding-top: 50px;
+	}
+	p{
+		color: #888;
+	}
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	display: block;
+}
+
+
+@media (max-width: 768px) {
+  .img-title{
+		width: 80%;
+		height: 80%;
+
+	}
+
+	.conteudo-title{
+		padding-top: 50px;
+	}
+.header-principal{
+	display: none;
+}
+.chamada .conteudo-chamada {
+    margin-top: 30px;
+}
+}
