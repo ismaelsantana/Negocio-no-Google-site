@@ -1,6 +1,4 @@
-# site Meu Negócio no Google
+# Site Meu Negócio no Google
 
-
-## tecnoligias usadas 
-
+## Feito com -->> 
 ### html5 - css - jquery - gulp - sass - bootstrap 
